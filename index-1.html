@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <a href="index-0.html">Page 1</a>
+    <br>
+    <a href="index-1.html">Page 2</a>
+    <br>
+    <a href="index-2.html">Page 3</a>
+
+    <br>
+
+    <h2 align="center">Image Searching Form</h2>
+
+
+<p >This Form is useful to use when you want to search for your favourite images and filter the results <strong>Try it</strong></p>
+
+  <form action="https://www.booking.com/" method="get">
+    <input type="Search" value="" placeholder="Search here"> 
+<input type="Button" value="Search">
+   <button type="button" >Filter</button> 
+  
+</form>
+
+<br>
+<form>
+    <div class="multiselect">
+      <div class="selectBox" onclick="showCheckboxes()">
+        <select>
+          <option>Select a filter</option>
+        </select>
+        <div class="overSelect"></div>
+      </div>
+      <div id="checkboxes">
+        <label for="High_To_Low_Price">
+          <input type="checkbox" id="High_To_Low_Price" />High To Low Price</label>
+        <label for="High_To_Low_Rating">
+          <input type="checkbox" id="High_To_Low_Rating" />High To Low Rating</label>
+        <label for="Traveling for work">
+          <input type="checkbox" id="Traveling for work" />Traveling for work</label>
+      </div>
+    </div>
+  </form>
+
+</body>
+</html>
